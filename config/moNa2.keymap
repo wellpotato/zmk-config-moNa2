@@ -83,7 +83,7 @@
 
         layer_3 {
             bindings = <
-&trans            &trans  &trans  &kp NUMBER_4  &kp NUMBER_5                       &trans     &kp I               &kp LC(UP_ARROW)    &trans               &trans
+&trans            &trans  &trans  &kp NUMBER_4  &kp NUMBER_5                       &trans     &kp LA(LG(I))       &kp LC(UP_ARROW)    &trans               &trans
 &kp TAB           &trans  &trans  &trans        &trans        &trans    &trans     &trans     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
 &kp LS(LEFT_GUI)  &trans  &trans  &trans        &trans        &trans    &trans     &trans     &trans              &trans              &trans               &trans
 &kp LEFT_CONTROL  &trans  &trans  &trans        &trans        &trans    &kp RG(C)  &kp RG(V)                                                               &trans
