@@ -67,7 +67,7 @@
 &trans      &trans    &trans    &trans     &trans  &trans    &trans  &trans                          &kp F12
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_2 {
@@ -116,10 +116,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB3  &mkp MB4  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB2  &kp PAGE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4  &mkp MB5  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
