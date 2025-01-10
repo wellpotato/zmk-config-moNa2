@@ -85,7 +85,7 @@
             bindings = <
 &trans            &trans  &trans  &kp NUMBER_4  &kp NUMBER_5                       &trans     &trans          &kp UP_ARROW    &trans           &trans
 &kp TAB           &trans  &trans  &trans        &trans        &trans    &trans     &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans        &trans        &trans    &trans     &trans     &trans          &trans          &trans           &trans
+&kp LC(LEFT_GUI)  &trans  &trans  &trans        &trans        &trans    &trans     &trans     &trans          &trans          &trans           &trans
 &kp LEFT_CONTROL  &trans  &trans  &trans        &trans        &trans    &kp LC(C)  &kp LC(V)                                                   &trans
             >;
 
