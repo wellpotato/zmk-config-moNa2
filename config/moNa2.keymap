@@ -50,7 +50,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R             &kp T                                             &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G        &trans                &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp COLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &trans                &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp QUESTION
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &lt 6 LC(SPACE)       &kp SLASH      &kp N        &kp M  &kp COMMA  &kp DOT  &kp QUESTION
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 INT_HENKAN  &lt 2 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 1 ENTER                             &lt 4 DELETE
             >;
 
@@ -83,10 +83,10 @@
 
         layer_3 {
             bindings = <
-&trans            &trans  &trans  &kp NUMBER_4  &kp NUMBER_5                       &trans     &kp LA(LG(I))       &kp LC(UP_ARROW)    &trans               &trans
-&kp TAB           &trans  &trans  &trans        &trans        &trans    &trans     &trans     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
-&kp LS(LEFT_GUI)  &trans  &trans  &trans        &trans        &trans    &trans     &trans     &trans              &trans              &trans               &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans        &trans        &trans    &kp RG(C)  &kp RG(V)                                                               &trans
+&kp B             &kp NUMBER_2  &kp X   &kp NUMBER_4  &kp NUMBER_5                       &trans     &kp LA(LG(I))       &kp LC(UP_ARROW)    &trans               &trans
+&kp TAB           &trans        &trans  &trans        &trans        &trans    &trans     &trans     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+&kp LS(LEFT_GUI)  &trans        &trans  &trans        &trans        &trans    &trans     &trans     &trans              &trans              &trans               &trans
+&kp LEFT_CONTROL  &trans        &trans  &trans        &trans        &trans    &kp RG(C)  &kp RG(V)                                                               &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -116,10 +116,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans     &trans    &trans    &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &mkp MB1  &mkp MB2  &kp PAGE_UP    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &mkp MB4  &mkp MB5  &kp PAGE_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LG(C)  &kp LG(V)                                     &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB2  &kp PAGE_UP    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB4  &mkp MB5  &kp PAGE_DOWN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
