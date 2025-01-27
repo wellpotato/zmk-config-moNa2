@@ -67,7 +67,7 @@
 &kp LEFT_CONTROL  &trans    &trans    &trans     &trans  &trans    &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
@@ -78,7 +78,7 @@
 &kp LEFT_CONTROL            &trans           &trans           &trans           &trans        &trans       &kp LEFT_SHIFT  &trans                                                                     &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {
